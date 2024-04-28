@@ -475,57 +475,6 @@ a:active {
   display: none;
 }
 
-[data-section-theme="dark"] {
-  --text-color: var(--color-white);
-  --section-title-color: var(--color-white);
-  background-color: var(--color-black);
-  --button-color: var(--color-white);
-}
-
-.section {
-  padding: var(--section-padding);
-}
-
-.section-header {
-  padding: var(--section-header-padding);
-  text-align: var(--section-header-align);
-}
-
-.section-body {
-  padding: var(--section-body-padding);
-}
-
-.section-footer {
-  padding: var(--section-footer-padding);
-  text-align: var(--section-footer-align);
-}
-
-.section-title {
-  font-family: var(--font-family-title);
-  font-size: var(--font-size-xx-large);
-  font-weight: var(--font-weight-bold);
-  margin: var(--section-title-margin);
-  color: var(--section-title-color);
-}
-
-.section-tagline {
-  font-family: var(--font-family-title);
-  font-weight: var(--font-weight-bold);
-  text-transform: var(--section-tagline-transform);
-}
-
-.card-category,
-.section-tagline {
-  color: var(--color-primary);
-  margin: var(--section-tagline-margin);
-}
-
-.container {
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .header {
   padding: var(--header-padding);
 }
@@ -576,9 +525,60 @@ a:active {
   height: 0.2rem;
 }
 
-.nav .nav-item:hover .nav .nav-link::before {
+.nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
+  --button-color: var(--color-white);
+}
+
+.section {
+  padding: var(--section-padding);
+}
+
+.section-header {
+  padding: var(--section-header-padding);
+  text-align: var(--section-header-align);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
+}
+
+.section-title {
+  font-family: var(--font-family-title);
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  margin: var(--section-title-margin);
+  color: var(--section-title-color);
+}
+
+.section-tagline {
+  font-family: var(--font-family-title);
+  font-weight: var(--font-weight-bold);
+  text-transform: var(--section-tagline-transform);
+}
+
+.card-category,
+.section-tagline {
+  color: var(--color-primary);
+  margin: var(--section-tagline-margin);
+}
+
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul.row {

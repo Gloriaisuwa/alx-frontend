@@ -495,10 +495,6 @@ a:active {
   margin-right: auto;
 }
 
-.footer {
-  padding: var(--footer-padding);
-}
-
 .nav {
   margin: 0;
   padding: 0;
@@ -575,6 +571,10 @@ ul.row {
 
 .social-link > svg {
   fill: var(--text-color);
+}
+
+.footer {
+  padding: var(--footer-padding);
 }
 
 .footer-copyright {

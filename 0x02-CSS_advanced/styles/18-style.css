@@ -486,10 +486,6 @@ a:active {
   margin-right: auto;
 }
 
-.footer {
-  padding: var(--footer-padding);
-}
-
 .navbar-menu {
   float: right;
 }
@@ -517,4 +513,8 @@ a:active {
 
 .nav .nav-link:hover {
   color: var(--nav-item-link-hover);
+}
+
+.footer {
+  padding: var(--footer-padding);
 }

@@ -488,10 +488,6 @@ a:active {
   margin-right: auto;
 }
 
-.footer {
-  padding: var(--footer-padding);
-}
-
 .nav {
   margin: 0;
   padding: 0;
@@ -540,6 +536,10 @@ ul.row {
 
 .col-1-2 {
   width: 50%;
+}
+
+.footer {
+  padding: var(--footer-padding);
 }
 
 .footer-copyright {

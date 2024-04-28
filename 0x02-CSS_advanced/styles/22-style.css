@@ -319,6 +319,7 @@ textarea {
 
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
+  appearance: button;
   font: inherit; /* 2 */
 }
 
@@ -442,6 +443,12 @@ a:active {
 
 .visually-hidden {
   display: none;
+}
+
+[data-section-theme="dark"] {
+  --text-color: var(--color-white);
+  --section-title-color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 .section {

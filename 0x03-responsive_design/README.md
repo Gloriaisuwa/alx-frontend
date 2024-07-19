@@ -1,1 +1,1 @@
-# Responsive design
+# aLX Responsive design project
